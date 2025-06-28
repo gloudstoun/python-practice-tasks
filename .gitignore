@@ -2,6 +2,7 @@
 source.txt
 destination.txt
 my_test_file.txt
+test_lines.txt
 
 # Other common temporary/system files to ignore (optional, but good practice)
 *.pyc

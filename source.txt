@@ -1,3 +1,0 @@
-This is the first line.
-It contains multiple lines for testing.
-Third line of test data.
