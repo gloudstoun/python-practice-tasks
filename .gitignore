@@ -3,6 +3,7 @@
 *.log
 *.tmp
 
+
 # Python compiled files and environment folders
 *.pyc
 __pycache__/
@@ -15,3 +16,7 @@ Thumbs.db
 
 # IDE specific files (e.g., VS Code)
 .vscode/
+
+# Project-specific test files
+test1.py
+test2.py
