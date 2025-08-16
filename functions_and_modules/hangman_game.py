@@ -114,7 +114,10 @@ def game(word):
 
         if len(user_try) == 1:
             if user_try in guessed_letters:
-                print(f"Вы уже угадали букву {user_try}.")
+                if user_try not in word:
+                    print(f"Вы уже пытались букву {user_try}.")
+                else:
+                    print(f"Вы уже угадали букву {user_try}.")
             else:
                 guessed_letters.append(user_try)
                 if user_try in word:
